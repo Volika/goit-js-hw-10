@@ -32,6 +32,7 @@ h3 {
   margin: 0 0 0 10px;
 }
 .country-list__item {
+  list-style: none;
   display: flex;
   align-items: center;
   margin-bottom: 10px;
