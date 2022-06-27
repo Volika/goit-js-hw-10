@@ -75,9 +75,9 @@ function countryСard({ flags, name, capital, population, languages }) {
         <img src="${flags.svg}" alt="${name.official}" width="50" />
         <h3 >${name.official}</h3>
       </div>
-      <p ><span class="country-info__name">Capital:</span> ${capital}</p>
-      <p ><span class="country-info__name">Population:</span> ${population}</p>
-      <p ><span class="country-info__name">Languages:</span> ${Object.values(languages,)}</p>
+      <p><b><i>Capital:</i></b> ${capital}</p>
+      <p><b><i>Population:</i></b> ${population}</p>
+      <p><b><i>Languages:</i></b> ${Object.values(languages,)}</p>
     </div>
   `;
 }
